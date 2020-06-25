@@ -9,7 +9,7 @@ function createColumns (row, size) {
             col.style.display = 'inline-block';
             col.style.width = oneSquare + 'px';
             col.style.height = oneSquare + 'px';
-            col.style.backgroundColor = 'blue';
+            col.style.backgroundColor = 'white';
             col.setAttribute("id", "grid");
             row.appendChild(col);
         }

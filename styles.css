@@ -1,0 +1,28 @@
+body {
+    background: radial-gradient(circle, rgba(24,222,246,1) 0%, rgba(25,136,179,1) 100%);
+}
+
+button {
+    padding: 1rem;
+    background: #fff;
+    border: thick double #000;
+    text-transform: uppercase; 
+}
+
+.title {
+    text-align: center;
+}
+
+.etch-container {
+    padding: auto;
+    margin: auto;
+    border: thick double #000;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+  
+}
